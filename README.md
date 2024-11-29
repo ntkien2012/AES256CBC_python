@@ -106,8 +106,3 @@ assert decrypted == txt, "Decryption failed!"
 - Ensure the password used for encryption and decryption is the same.
 - The generated password is 256 bits (32 characters) for AES-256.
 - The IV is randomly generated for each encryption, ensuring secure and unique ciphertext for identical plaintext.
-
----
-
-## License
-This script is open-source and can be used under the MIT license.
